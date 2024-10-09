@@ -6,14 +6,14 @@ console.log(cssStyle,"CSS-Style")
 const Nested = () => {
   return (
   
-  <body>
+  <div>
     <div>
-       <h1 className={cssStyle.n}>Hello I'm Nested Page</h1>
+       <h1 className={cssStyle.n}>Hello I`m Nested Page</h1>
 
     </div>
     
 
-  </body>
+  </div>
   )
 }
 
